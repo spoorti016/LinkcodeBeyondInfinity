@@ -164,11 +164,28 @@ to {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.compete-row{
+.row{
 	margin-top: 15rem;
 	margin-bottom: 2rem;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+}
+
+#homeprod1::before {
+	content: "";
+	/*   background:  url('../assets/download%20(1).png')no-repeat center center/cover;*/
+	background: grey;
+	position: absolute;
+	height: 45%;
+	width: 100%;
+	z-index: -1;
+	opacity: 1;
+}
+
+.contactpagehome{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
   /* #qual-div{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -178,3 +195,23 @@ to {
   #qual-row{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
   } */
+
+  /*contact page
+  .card1::before {
+	content: "";
+	background:  url('../assets/pexels-pixabay-159298.jpg') center center/cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 1;
+}
+.card2::before {
+	content: "";
+	background:  url('../assets/pexels-pixabay-159298.jpg') center center/cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 1;
+}*/
