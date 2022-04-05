@@ -215,3 +215,13 @@ to {
 	z-index: -1;
 	opacity: 1;
 }*/
+.b_text{
+	font-size: 1.25rem;
+	color: rgb(11, 11, 11);
+
+}
+.b_icon{
+	float: left;
+	width: 2rem;
+	height: 2rem;
+}
